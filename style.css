@@ -40,3 +40,29 @@ p {
         background-color: black;
     }
 
+    main {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    section {
+        background-color: aqua;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    img {
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        margin: auto;
+        border-radius: 12px;
+    }
+
+    figcaption {
+        text-align: center;
+        font-size: 14px;
+        color: aquamarine;
+    }
+    
