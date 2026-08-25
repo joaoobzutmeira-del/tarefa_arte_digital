@@ -1,87 +1,91 @@
 body {
-    background-color:rgb(206, 198, 198);
+    background-color: rgb(206, 198, 198);
     color: #bd9a9a;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 header {
-    background-color:aqua
-    color:white;
+    background-color: aqua;
+    color: white;
     text-align: center;
     padding: 30px;
 }
+
 h1 {
     font-size: 36px;
 }
 
 h2 {
-    color:beige;
+    color: beige;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
 }
-    nav {
-        margin-top: 20px;
-    }
 
-    nav a {
-        color: white;
-        test-decoration: none;
-        background-color: rgb(71, 177, 29);
-        padding: 10px 15px;
-        border-radius: 8px;
-        margin: 5px;
-        display: inline-block;
-    }
+nav {
+    margin-top: 20px;
+}
 
-    nav a: hover {
-        background-color: black;
-    }
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(71, 177, 29);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
 
-    main {
-        width: 80%;
-        margin: auto;
+nav a:hover { 
+    background-color: black;
+}
 
-    }
+main {
+    width: 80%;
+    margin: auto;
+}
 
-    section {
-        background-color: aqua;
-        margin: 20px 0;
-        padding: 20px;
-        border-radius: 12px;
-    }
-    img {
-        width: 100%;
-        max-width: 600px;
-        display: block;
-        margin: auto;
-        border-radius: 12px;
-    }
+section {
+    background-color: aqua;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
 
-    figcaption {
-        text-align: center;
-        font-size: 14px;
-        color: aquamarine;
-        margin-top: 8px;
-    }
-    card{
-        background-color: blue;
-        padding: 15px;
-        margin: 15px; 0;
-        border-left: 6px solid #6b2d5c;
-        border-radius: 10px;
-    }
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
 
-    card h3 {
-        margin-top: o;
-    }
-    footer {
-        background-color: forestgreen;
-        color: aliceblue;
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-    }
-    
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: aquamarine;
+    margin-top: 8px;
+}
+
+card {
+    background-color: blue;
+    padding: 15px;
+    margin: 15px 0; 
+    border-left: 6px solid #6b2d5c;
+    border-radius: 10px;
+}
+
+card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: forestgreen;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
