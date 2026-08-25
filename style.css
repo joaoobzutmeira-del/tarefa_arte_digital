@@ -29,7 +29,7 @@ p {
     nav a {
         color: white;
         test-decoration: none;
-        background-color: aliceblue;
+        background-color: rgb(71, 177, 29);
         padding: 10px 15px;
         border-radius: 8px;
         margin: 5px;
@@ -64,5 +64,24 @@ p {
         text-align: center;
         font-size: 14px;
         color: aquamarine;
+        margin-top: 8px;
+    }
+    card{
+        background-color: blue;
+        padding: 15px;
+        margin: 15px; 0;
+        border-left: 6px solid #6b2d5c;
+        border-radius: 10px;
+    }
+
+    card h3 {
+        margin-top: o;
+    }
+    footer {
+        background-color: forestgreen;
+        color: aliceblue;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
     }
     
