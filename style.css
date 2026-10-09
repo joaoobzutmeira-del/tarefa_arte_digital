@@ -1,29 +1,29 @@
 :root{
-    --cor-fundo: #f4f1ea;
-    --cor-texto: #222222;
-    --cor-principal:
-    --cor-secundaria:
-    --cor-hover: 
-    --cor-superficie 
-    --cor-card: 
-    --cor-legenda; 
-    --cor-clara: 
-    --cor-rodape:
+    --cor-fundo:rgb(33, 138, 20);
+    --cor-texto: white;
+    --cor-principal:rgb(33, 138, 20);
+    --cor-secundaria: white;
+    --cor-hover:  beige;
+    --cor-superficie: white;
+    --cor-card: rgb(228, 230, 227);
+    --cor-legenda: black;
+    --cor-clara: rgb(25, 160, 25);
+    --cor-rodape:rgb(33, 138, 20);
 }
 
 body {
-    background-color: rgb(206, 198, 198);
-    color: #e4e7e4;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: rgb(33, 138, 20);
-    color: white;
+    background-color: var(--cor-principal)
+    color: var(--cor-secundaria)
     text-align: center;
     padding: 30px;
-}
+}white;
 
 h1 {
     font-size: 36px;
@@ -79,7 +79,7 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: rgb(236, 245, 242);
+    color: rgb(33, 138, 20);
     margin-top: 8px;
 }
 
