@@ -1,12 +1,12 @@
 :root{
-    --cor-fundo:rgb(236, 240, 236);
+    --cor-fundo:rgb(52, 221, 52);
     --cor-texto: rgb(5, 8, 3);
     --cor-principal:rgb(50, 153, 36);
     --cor-secundaria: white;
     --cor-hover:  rgb(78, 179, 31);
     --cor-superficie: rgb(74, 139, 20);
     --cor-card: rgb(50, 153, 36);
-    --cor-legenda: black;
+    --cor-legenda: rgb(255, 255, 255);
     --cor-clara: rgb(25, 160, 25);
     --cor-rodape:rgb(33, 138, 20);
 }
