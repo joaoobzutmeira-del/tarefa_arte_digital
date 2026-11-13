@@ -17,8 +17,8 @@ function curtir(){
 
 
 
-const bntTema = document.querySelector(".bnt-tema");
-bntTema.addEventListener("click", mudarTema);
+const btnTema = document.querySelector(".btn-tema");
+btnTema.addEventListener("click", mudarTema);
 function mudarTema(){
     document.body.classList.toggle("tema-escuro");
 }
