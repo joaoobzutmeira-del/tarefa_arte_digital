@@ -130,3 +130,19 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.cards-curiosidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bnt-tema {
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
+}
